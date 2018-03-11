@@ -26,10 +26,8 @@ function activate(context) {
         }
       }
 
-      lines.sort((a, b) => {
-        if (a.toLowerCase() < b.toLowerCase) return -1;
-        else if (a.toLowerCase() > b.toLowerCase()) return 1;
-        return 0;
+      lines.sort(function(a, b) {
+        return a.toLowerCase().localeCompare(b.toLowerCase());
       });
 
       editor.edit(editBuilder => {
