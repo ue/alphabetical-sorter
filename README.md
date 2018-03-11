@@ -12,16 +12,13 @@ Click to extension tab and search `Alphabetical Sorter` and install it reload yo
 ## Usage
 
 Select the desired ones(supports for kind variable).
-
+Using Command Palette (CMD/CTRL + SHIFT + A) Or
 `Cmd+Shift+P` and select `Alphabetical Sorter` thats it.
 
 ## For questions
 
-[Ugur Erdal](https://github.com/ue)
 [Repo](https://github.com/ue/alphabetical-sorter)
 
 ## License
 
 MIT © [UE](https://github.com/ue)
-
-**Keep cool!**
